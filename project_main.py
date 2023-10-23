@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 import dash
 import dash_core_components as dcc
@@ -16,7 +15,7 @@ st.title('Comment la consommation d\'électricité et de gaz en France a-t-elle 
 # Création d'un menu
 st.sidebar.title('Menu')
 st.sidebar.markdown("""
-- [Descreption du projet](#project-description-)
+- [Description du projet](#project-description-)
 - [Evolution de la consommation 2011 à 2021](#Evolution-de-la-consommation-2011-à-2021)
 - [Les 5 plus grands secteurs de la consommation](#Les-5-plus-grands-secteurs-de-la-consommation)
 - [Les 5 principaux opérateurs de consommation ](#Les-5-principaux-opérateurs-de-consommation)
@@ -29,7 +28,7 @@ st.sidebar.write('Alina Hodovanska BIA1')
 
 # Add an anchor tag for the section
 st.markdown('<a id="project-description-"></a>', unsafe_allow_html=True)
-st.header('Descreption du projet')
+st.header('Description du projet')
 
 st.write("""
     Ce projet analyse la consommation d'électricité et de gaz en France sur une décennie, de 2011 à 2021. Il se penche sur les tendances annuelles, les principaux secteurs d'utilisation de ces énergies, les opérateurs clés, les prix du gaz, l'électricité, et le stockage de gaz. L'objectif est de fournir un aperçu global de l'évolution énergétique en France au cours de cette période.
