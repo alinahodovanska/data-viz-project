@@ -1,0 +1,5 @@
+plotly
+pandas
+streamlit
+dash
+ast
